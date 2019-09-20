@@ -1,0 +1,29 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Amber Horvath
+tagline:             PhD Student.
+url:                 http://amberhorvath.github.io
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Amber Horvath
+  email:             ahorvath@cs.cmu.edu
+
+# Custom vars
+version:             2.0.1
+
+# Gems
+plugins:
+  # - jekyll-paginate
+  # - jekyll-gist

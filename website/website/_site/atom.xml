@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Jami Gibbs</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2019-09-20T17:39:16-04:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Jami Gibbs</name>
+   <email>jami0821@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>API Usability</title>
+   <link href="http://localhost:4000/2019/09/05/api_usability/"/>
+   <updated>2019-09-05T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2019/09/05/api_usability</id>
+   <content type="html">&lt;p&gt;My current project is exploring how developer’s make sense of API’s and discover available functionality. I employ a mixed-methods approach including interview studies and repository mining to understand the qualitative aspects of discovery of functionality and quantitative measures to see how these potential problems may scale.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../public/publications/horvath_vlhcc19.pdf&quot;&gt;VL/HCC 2019 - The Long Tail: Understanding the Discoverability of API Functionality&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../public/publications/horvath_chiLBW19.pdf&quot;&gt;CHI Late-Breaking Work 2019 - Methods for Investigating Mental Models For Learners of APIs&lt;/a&gt; &lt;a href=&quot;../public/publications/horvath_chiLBW19_poster.pdf&quot;&gt;(Poster Version)&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>GenderMag</title>
+   <link href="http://localhost:4000/2019/09/04/gendermag/"/>
+   <updated>2019-09-04T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2019/09/04/gendermag</id>
+   <content type="html">&lt;p&gt;The	GenderMag method helps software developers and usability	professionals find and fix software features that may have gender-inclusiveness “bugs”. I assisted in the creation and evaluation of GenderMag as a method software developers may employ to create more inclusive software by finding places where software features may be designed to cater to one cognitive processing style over another, where these cognitive processing styles tend to differ by gender. Dr. Burnett is continuing work on this project, so please inquire with her if you would like to try the GenderMag method yourself!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../public/publications/mendez_vlhcc18.pdf&quot;&gt;VL/HCC 2018 - Semi-Automating (or not) a Socio-Technical Method for Socio-Technical Systems&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../public/publications/mendez_icse18.pdf&quot;&gt;ICSE 2018 - Open Source Barriers to Entry, Revisited: A Sociotechnical Persepctive&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../public/publications/hill_vlhcc16.pdf&quot;&gt;VL/HCC 2016 - GenderMag Experiences in the Field: The Whole, the Parts, and the Workload&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Idea Garden</title>
+   <link href="http://localhost:4000/2019/09/03/idea_garden/"/>
+   <updated>2019-09-03T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2019/09/03/idea_garden</id>
+   <content type="html">&lt;p&gt;The Idea Garden is a scaffolded help system designed to aid end-user programmers (people who program as part of their job but may have no formal training in software engineering) write more effective code by teaching them fundamental programming strategies and idioms. I assisted in the evaluation of the Idea Garden as an undergraduate researcher in Dr. Burnett’s lab.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../public/publications/jernigan_jvlc17.pdf&quot;&gt;JVLC 2017 - General Principles for a Generalized Idea Garden&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../public/publications/jernigan_vlhcc15.pdf&quot;&gt;VL/HCC 2015 - A Principled Evaluation for a Principled Idea Garden&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../public/publications/lee_vlhcc14.pdf&quot;&gt;VL/HCC 2014 - Principles of a Debugging-First Puzzle Game for Computing Education&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../public/publications/lee_vlhcc14.pdf&quot;&gt;VL/HCC 2013 - Principles of a Debugging-First Puzzle Game for Computing Education&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+
+</feed>
