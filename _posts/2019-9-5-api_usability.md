@@ -3,7 +3,7 @@ layout: post
 title: API Usability
 ---
 
-My current project is designing tooling solutions for helping developers keep track of and better utilize online resources while learning unfamiliar APIs. This is part of a larger project on understanding developers needs when learning new APIs. My previous projects in this area included understanding developers mental models of API concepts and how developers discover functionality in new APIs.
+My current project is designing tooling solutions for helping developers keep track of and better utilize online resources while learning unfamiliar APIs. This is part of a larger project on understanding developers needs when learning new APIs. My previous projects in this area included understanding developers' mental models of API concepts and how developers discover functionality in new APIs.
 
 [VL/HCC 2019 - The Long Tail: Understanding the Discoverability of API Functionality](../public/publications/horvath_vlhcc19.pdf)
 
