@@ -3,7 +3,7 @@ layout: post
 title: API Usability
 ---
 
-My current project is exploring how developer's make sense of API's and discover available functionality. I employ a mixed-methods approach including interview studies and repository mining to understand the qualitative aspects of discovery of functionality and quantitative measures to see how these potential problems may scale.
+My current project is designing tooling solutions for helping developers keep track of and better utilize online resources while learning unfamiliar APIs. This is part of a larger project on understanding developers needs when learning new APIs. My previous projects in this area included understanding developers mental models of API concepts and how developers discover functionality in new APIs.
 
 [VL/HCC 2019 - The Long Tail: Understanding the Discoverability of API Functionality](../public/publications/horvath_vlhcc19.pdf)
 
