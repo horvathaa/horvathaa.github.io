@@ -4,7 +4,7 @@
  <title>Amber Horvath</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-05-05T15:38:11-04:00</updated>
+ <updated>2020-10-06T13:17:37-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Amber Horvath</name>
@@ -17,7 +17,9 @@
    <link href="http://localhost:4000/2019/09/05/api_usability/"/>
    <updated>2019-09-05T00:00:00-04:00</updated>
    <id>http://localhost:4000/2019/09/05/api_usability</id>
-   <content type="html">&lt;p&gt;My current project is designing tooling solutions for helping developers keep track of and better utilize online resources while learning unfamiliar APIs. This is part of a larger project on understanding developers needs when learning new APIs. My previous projects in this area included understanding developers’ mental models of API concepts and how developers discover functionality in new APIs.&lt;/p&gt;
+   <content type="html">&lt;p&gt;My current project is designing tooling solutions for helping developers keep track of and better utilize online resources while learning unfamiliar APIs. I have developed a Chrome Extension called Adamite that aims to support developers sensemaking during API learning tasks through creating and keeping track of developers’ questions, personal to-do items, and shared resources while using documentation. This is part of a larger project on understanding developers needs when learning new APIs. My previous projects in this area included understanding developers’ mental models of API concepts and how developers discover functionality in new APIs.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../public/publications/adamite-submission-deanonymized.pdf&quot;&gt;In-Submission - Augmenting Software Documentation through Crowd-sourcing Annotations with ADAMITE&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;../public/publications/horvath_vlhcc19.pdf&quot;&gt;VL/HCC 2019 - The Long Tail: Understanding the Discoverability of API Functionality&lt;/a&gt;&lt;/p&gt;
 
