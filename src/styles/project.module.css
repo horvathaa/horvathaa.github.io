@@ -1,0 +1,21 @@
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 0.5vw;
+    border: 1px solid rgb(37 142 255 / 34%);
+    margin: 1vh;
+    background: white;
+}
+
+.collaborators {
+    display: block;
+}
+
+.description {
+    font-size: small;
+    padding: 0.5vw 0.5vh;
+}
+
+.projectHeader {
+    font-size: large;
+}

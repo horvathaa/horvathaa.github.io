@@ -1,0 +1,143 @@
+@font-face {
+    font-family:  'Cereal Normal';
+    src: url('./fonts/AirbnbCerealBook.ttf') format("truetype"),
+        url('./fonts/AirbnbCerealBook.woff') format("woff");
+}
+
+@font-face {
+    font-family:  'Cereal Black';
+    src: url('./fonts/AirbnbCerealBlack.ttf') format("truetype"),
+        url('./fonts/AirbnbCerealBlack.woff') format("woff");
+}
+
+@font-face {
+    font-family:  'Cereal Light';
+    src: url('./fonts/AirbnbCerealLight.ttf') format("truetype"),
+        url('./fonts/AirbnbCerealLight.woff') format("woff");
+}
+
+@font-face {
+    font-family:  'Cereal Medium';
+    src: url('./fonts/AirbnbCerealMedium.ttf') format("truetype"),
+        url('./fonts/AirbnbCerealMedium.woff') format("woff");
+}
+
+@font-face {
+    font-family:  'Cereal Bold';
+    src: url('./fonts/AirbnbCerealBold.ttf') format("truetype"),
+    url('./fonts/AirbnbCerealBold.woff') format("woff");
+
+}
+
+@font-face {
+    font-family: 'Cereal Bolder';
+    src: url('./fonts/AirbnbCerealExtraBold.ttf') format("truetype"),
+        url('./fonts/AirbnbCerealExtraBold.woff') format("woff"); 
+}
+
+
+:root {
+    --brand-regular: #ADC79E;
+    --brand-dark: #103C21;
+
+    --white: #FFFFFF;
+    --offwhite: #F9F9F9;
+    --gray: #EEEEEE;
+
+    --black: #000;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-weight: 400;
+    list-style: none;
+}
+
+html {
+    /* font-family: Helvetica, sans-serif; */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family:  'Cereal Normal', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    /* min-height: fit-content; */
+    height: 100%;
+    /* background: linear-gradient(0deg, rgba(34,195,105,0.35) 0%, rgba(219,253,45,0.35) 47%, rgba(34,195,105,0.35) 100%); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    list-style: none;
+}
+
+body {
+    box-sizing: border-box;
+    background: rgba(240, 242, 245, 0.56);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* body::-webkit-scrollbar {
+    display: none;
+} */
+
+main {
+    /* margin: 0 30rem; */
+    margin: 0 5rem;
+    min-width: 80%;
+    max-width: calc(100% - 600px);
+    direction: ltr;
+    float: left;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    font-size: small;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    text-decoration: none;
+}
+
+.dropdown-item:hover{
+    color: #6b778ca1 !important;
+}

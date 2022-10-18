@@ -1,0 +1,128 @@
+{
+    "Projects": [
+        {
+            "title": "Annotations for Supporting Developers' Sensemaking",
+            "description": "The subject of my dissertation work is an empirical investigation into what information developers naturally keep track of and tooling solutions to make capturing and sharing this information easier. I have developed a suite of annotation tools that support capturing developer information in-context. This suite includes Adamite, a Chrome extension for annotating developers' online learning materials, and Catseye, a Visual Studio Code extension, which allows developers to keep track of their open development tasks, questions, and more through code annotations.",
+            "collaborators": "Brad A. Myers, Michael Xieyang Liu, Andrew Macvean, River Hendriksen, Connor Shannon, Emma Paterson, Imtiaz Rahman, Shannon Bonet, Matthew Shu, Lai Wei, Kazi Jawad",
+            "publications": [
+                {
+                    "title": "Using Annotations for Sensemaking About Code",
+                    "authors": "Amber Horvath, Brad A. Myers, Andrew Macvean, and Imtiaz Rahman",
+                    "publicationVenue": "UIST 2022",
+                    "paperPath": "./resources/horvath_uist2022.pdf"
+                },
+                {
+                    "title": "Understanding How Developers Can Use Annotations on Documentation",
+                    "authors": "Amber Horvath, Michael Xieyang Liu, River Hendriksen, Connor Shannon, Emma Paterson, Kazi Jawad, Andrew Macvean, and Brad A. Myers",
+                    "publicationVenue": "CHI 2022",
+                    "paperPath": "./resources/horvath_chi2022.pdf"
+                }
+            ]
+        },
+        {
+            "title": "API Usability",
+            "description": "My earlier research investigated how developers make sense of complex and unfamiliar APIs. This included understanding how developers form a mental model of an API, and how they discover pertinent functionality. I also collaborated with my peer, Daye Nam, on her work computationally identifying instances of API boilerplate code in open source projects.",
+            "collaborators": "Brad A. Myers, Bogdan Vasilescu, Daye Nam, Finn Voichick, Sachin Grover, Mariann Nagy, Andrew Macvean, Mary Beth Kery, Sihan Dong, Emily Zhou, Shwetha Shinju",
+            "publications": [
+                {
+                    "title": "The Long Tail: Understanding the Discoverability of API Functionality",
+                    "authors": "Amber Horvath, Sachin Grover, Sihan Dong, Emily Zhou, Finn Voichick, Mary Beth Kery, Shwetha Shinju, Daye Nam, Mariann Nagy, and Brad A. Myers",
+                    "publicationVenue": "VL/HCC 2019",
+                    "paperPath": "./resources/horvath_vlhcc2019.pdf"
+                },
+                {
+                    "title": "Methods for Investigating Mental Models For Learners of APIs",
+                    "authors": "Amber Horvath, Mariann Nagy, Finn Voichick, Mary Beth Kery, Brad A. Myers",
+                    "publicationVenue": "CHI LBW 2019",
+                    "paperPath": "./resources/horvath_chilbw2019.pdf"
+                },
+                {
+                    "title": "MARBLE: Mining for Boilerplate Code to Identify API Usability Problems",
+                    "authors": "Daye Nam, Amber Horvath, Andrew Macvean, Bogdan Vasilescu, and Brad A. Myers",
+                    "publicationVenue": "ASE 2019",
+                    "paperPath": "./resources/nam_ase2019.pdf"
+                }
+            ]
+        },
+        {
+            "title": "Developer Diversity and Inclusion",
+            "description": "I have had the fortune of working on projects related to broadening participation in computing through understanding systemic inequities, and developing methodologies to uncover biases. Much of this work was done with my peers at Oregon State University, where we developed GenderMag, a methodology to uncover cognitive biases in technology. I have also looked at open source and closed source datasets to understand whether work is completed equitably by subpopulations of developers.",
+            "collaborators": "Emerson Murphy-Hill, Margaret Burnett, Anita Sarma, Sandeep Kuttal, Chris Mendez, Alannah Oleson, and many more.",
+            "publications": [
+                {
+                    "title": "How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects",
+                    "authors": "Susmita Hema Padala, Christopher John Mendez, Luiz Felipe Dias, Igor Steinmacher, Zoe Steine Hanson, Claudia Hilderbrand, Amber Horvath, Charles Hill, Logan Dale Simpson, Margaret Burnett, Marco Gerosa, Anita Sarma",
+                    "publicationVenue": "Transactions on Software Engineering",
+                    "paperPath": "./resources/padala_tose2020.pdf"
+                },
+                {
+                    "title": "Open Source Barriers to Entry, Revisited: A Sociotechnical Perspective",
+                    "authors": "Chris Mendez, Hema Susmita Padala, Zoe Steine-Hanson, Claudia Hilderbrand, Amber Horvath, Charles Hill, Logan Simpson, Nupoor Patil, Anita Sarma, and Margaret Burnett",
+                    "publicationVenue": "ICSE 2018",
+                    "paperPath": "./resources/mendez_icse2018.pdf"
+                },
+                {
+                    "title": "Semi-Automating (or not) a Socio-Technical Method for Socio-Technical Systems",
+                    "authors": "Christopher Mendez, Zoe Steine Hanson, Alannah Oleson, Amber Horvath, Charles Hill, Claudia Hilderbrand, Anita Sarma, and Margaret Burnett",
+                    "publicationVenue": "VL/HCC 2018",
+                    "paperPath": "./resources/mendez_vlhcc2018.pdf"
+                },
+                {
+                    "title": "GenderMag Experiences in the Field: the Whole, the Parts, and The Workload",
+                    "authors": "Charles Hill, Shannon Ernst, Alannah Oleson, Amber Horvath, Margaret Burnett",
+                    "publicationVenue": "VL/HCC 2016",
+                    "paperPath": "./resources/hill_vlhcc2016.pdf"
+                }
+            ]
+        },
+        {
+            "title": "Human-Centered Developer Support",
+            "description": "A lot of my research centers around understanding programmer behavior and designing solutions that take into account these behaviors. This work has involved understanding different types of developers, such as data scientists who manage many different versions of their code while doing exploratory programming, and end user programmers, who are mainly interested in programming as a means to an end.",
+            "collaborators": "Brad A. Myers, Margaret Burnett, Mary Beth Kery, Will Jernigan, Michael Lee, David Piorkowski, Jill Cao, Amy Ko, Michael Lee, and many more.",
+            "publications": [
+                {
+                    "title": "Towards Effective Foraging by Data Scientists to Find Past Analysis Choices",
+                    "authors": "Mary Beth Kery, Bonnie John, Patrick O'Flaherty, Amber Horvath, and Brad A. Myers",
+                    "publicationVenue": "CHI 2019",
+                    "paperPath": "./resources/kery_chi2019.pdf"
+                },
+                {
+                    "title": "Variolite: Supporting Exploratory Programming by Data Scientists",
+                    "authors": "Mary Beth Kery, Amber Horvath, and Brad A. Myers",
+                    "publicationVenue": "CHI 2017",
+                    "paperPath": "./resources/kery_chi2017.pdf"
+                },
+                {
+                    "title": "General Principles for a Generalized Idea Garden",
+                    "authors": "William Jernigan, Amber Horvath, Michael Lee, Margaret Burnett, Taylor Cuilty, Sandeep Kuttal, Anicia Peters, Irwin Kwan, Faezeh Bahmani, Amy Ko, Christopher J Mendez, and Alannah Oleson",
+                    "publicationVenue": "Journal of Visual Languages & Computing",
+                    "paperPath": "./resources/jernigan_jvlc2017.pdf"
+                },
+                {
+                    "title": "A Principled Evaluation for a Principled Idea Garden",
+                    "authors": "Will Jernigan, Amber Horvath, Michael Lee, Margaret Burnett, Taylor Cuilty, Sandeep Kuttal, Anicia Peters, Irwin Kwan, Faezeh Bahmani, and Amy Ko",
+                    "publicationVenue": "VL/HCC 2015",
+                    "paperPath": "./resources/jernigan_vlhcc2015.pdf"
+                },
+                {
+                    "title": "To Fix or To Learn? How Production Bias Affects Developers' Information Foraging During Debugging",
+                    "authors": "David Piorkowski, Scott D Fleming, Christopher Scaffidi, Margaret Burnett, Irwin Kwan, Austin Z Henley, Jamie Macbeth, Charles Hill, and Amber Horvath",
+                    "publicationVenue": "ICSME 2015",
+                    "paperPath": "./resources/piorkowski_icsme2015.pdf"
+                },
+                {
+                    "title": "Principles of a Debugging-First Puzzle Game for Computing Education",
+                    "authors": "Michael J Lee, Faezeh Bahmani, Irwin Kwan, Jilian LaFerte, Polina Charters, Amber Horvath, Fanny Luor, Jill Cao, Catherine Law, Michael Beswetherick, Sheridan Long, Margaret Burnett, Amy J Ko",
+                    "publicationVenue": "VL/HCC 2014",
+                    "paperPath": "./resources/lee_vlhcc2014.pdf"
+                },
+                {
+                    "title": "End-User Programmers in Trouble: Can the Idea Garden Help Them to Help Themselves?",
+                    "authors": "Jill Cao, Irwin Kwan, Faezeh Bahmani, Margaret Burnett, Scott D Fleming, Josh Jordahl, Amber Horvath, and Sherry Yang",
+                    "publicationVenue": "VL/HCC 2013",
+                    "paperPath": "./resources/cao_vlhcc2013.pdf"
+                }
+            ]
+        }
+    ]
+}
