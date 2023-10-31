@@ -1,8 +1,8 @@
 {
     "Projects": [
         {
-            "title": "Annotations for Supporting Developers' Sensemaking",
-            "description": "The subject of my dissertation work is an empirical investigation into what information developers naturally keep track of and tooling solutions to make capturing and sharing this information easier. I have developed a suite of annotation tools that support capturing developer information in-context. This suite includes Adamite, a Chrome extension for annotating developers' online learning materials, and Catseye, a Visual Studio Code extension, which allows developers to keep track of their open development tasks, questions, and more through code annotations.",
+            "title": "Meta-Information for Supporting Developers' Sensemaking",
+            "description": "The subject of my dissertation work is an empirical investigation into what information developers naturally keep track of and tooling solutions to make capturing and sharing this information easier. I have developed a suite of annotation tools that support capturing developer information in-context. This suite includes Adamite, a Chrome extension for annotating developers' online learning materials, and Catseye, a Visual Studio Code extension, which allows developers to keep track of their open development tasks, questions, and more through code annotations. I have also developed a system for supporting developers in authoring long-form documentation, which tracks additional meta-information about the documentation and code relevant to the documentation.",
             "collaborators": "Brad A. Myers, Michael Xieyang Liu, Andrew Macvean, River Hendriksen, Connor Shannon, Emma Paterson, Imtiaz Rahman, Shannon Bonet, Matthew Shu, Lai Wei, Kazi Jawad",
             "publications": [
                 {
@@ -16,6 +16,12 @@
                     "authors": "Amber Horvath, Michael Xieyang Liu, River Hendriksen, Connor Shannon, Emma Paterson, Kazi Jawad, Andrew Macvean, and Brad A. Myers",
                     "publicationVenue": "CHI 2022",
                     "paperPath": "./resources/horvath_chi2022.pdf"
+                },
+                {
+                    "title": "Support for Long-Form Documentation Authoring and Maintenance",
+                    "authors": "Amber Horvath, Andrew Macvean, and Brad A. Myers",
+                    "publicationVenue": "VL/HCC 2023",
+                    "paperPath": "./resources/horvath_vlhcc2023.pdf"
                 }
             ]
         },
@@ -46,9 +52,15 @@
         },
         {
             "title": "Developer Diversity and Inclusion",
-            "description": "I have had the fortune of working on projects related to broadening participation in computing through understanding systemic inequities, and developing methodologies to uncover biases. Much of this work was done with my peers at Oregon State University, where we developed GenderMag, a methodology to uncover cognitive biases in technology. I have also looked at open source and closed source datasets to understand whether work is completed equitably by subpopulations of developers.",
+            "description": "I have had the fortune of working on projects related to broadening participation in computing through understanding systemic inequities, and developing methodologies to uncover biases. Much of this work was done with my peers at Oregon State University, where we developed GenderMag, a methodology to uncover cognitive biases in technology. I have also looked at whether work is completed equitably by subpopulations of developers as part of my 2019 internship at Google.",
             "collaborators": "Emerson Murphy-Hill, Margaret Burnett, Anita Sarma, Sandeep Kuttal, Chris Mendez, Alannah Oleson, and many more.",
             "publications": [
+                {
+                    "title": "Systemic Gender Inequities in Who Reviews Code",
+                    "authors": "Emerson Murphy-Hill, Jillian Dicker, Amber Horvath, Maggie Morrow Hodges, Laurie R. Weingart, Ciera Jaspan, Collin Green, and Nina Chen",
+                    "publicationVenue": "CSCW 2023",
+                    "paperPath": "./resources/murphy-hill_cscw2023.pdf"
+                },
                 {
                     "title": "How Gender-Biased Tools Shape Newcomer Experiences in OSS Projects",
                     "authors": "Susmita Hema Padala, Christopher John Mendez, Luiz Felipe Dias, Igor Steinmacher, Zoe Steine Hanson, Claudia Hilderbrand, Amber Horvath, Charles Hill, Logan Dale Simpson, Margaret Burnett, Marco Gerosa, Anita Sarma",

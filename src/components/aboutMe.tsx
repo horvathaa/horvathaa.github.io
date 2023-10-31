@@ -11,7 +11,7 @@ interface About {
 
 const about: About = {
     shortDescription:
-        '5th year Ph.D student in the Human-Computer Interaction Institute at Carnegie Mellon University, researching ways to make developer information tracking, capturing, and sharing more seamless.',
+        '6th year Ph.D student in the Human-Computer Interaction Institute at Carnegie Mellon University, researching ways to make developer information tracking, capturing, and sharing more seamless.',
     imgSrc: './resources/amber.jpeg',
     longDescription: (
         <>
@@ -19,11 +19,12 @@ const about: About = {
                 Amber Horvath works at the intersection of human-computer
                 interaction (HCI), programming support tools, software
                 engineering, and sensemaking. She uses human-centered methods to
-                design and build novel tools to help developers better annotate
-                and share their learning materials. She has also done work
-                related to fostering more inclusive environments for
-                underrepresented populations in computing, using novel
-                methodologies and large-scale data analysis.
+                design and build novel tools to help developers harness and
+                share their programming-related meta-information for software
+                development support. She has also done work related to fostering
+                more inclusive environments for underrepresented populations in
+                computing, using novel methodologies and large-scale data
+                analysis.
             </div>
             <div>
                 She publishes at premier venues in the fields of HCI and
