@@ -14,23 +14,6 @@ const Project: React.FC<Props> = ({ project }) => {
     const [showingPublications, setShowingPublications] =
         React.useState<boolean>(false)
 
-    const showHidePublications = () => {
-        let listEl = document.getElementById(project.title)
-        let childListEl = document.getElementById(project.title + '-child')
-        console.log('listEl', listEl)
-        console.log('childList', childListEl)
-        if (showingPublications && listEl) {
-            console.log('setting to 0 - listEl', listEl.style.height)
-            listEl.style.height = '0px'
-            console.log('setting to 0 - after', listEl.style.height)
-        } else if (listEl && childListEl) {
-            console.log('setting to something - listEl', listEl.style.height)
-            listEl.style.height = childListEl.clientHeight + 'px'
-            console.log('setting to something - after', listEl.style.height)
-        }
-        setShowingPublications(!showingPublications)
-    }
-
     return (
         <div key={project.title} className="relative flex-col flex ">
             <div key={project.title} className="relative flex-col flex ">
@@ -52,7 +35,6 @@ const Project: React.FC<Props> = ({ project }) => {
                     {project.learnMore ? project.learnMore : null}
                 </div>
 
-                {/* {showingPublications && ( */}
                 <div>
                     <div className="mt-3 sm:mt-0 sm:ml-3 flex items-end justify-center p-4 justify-items-center">
                         <button

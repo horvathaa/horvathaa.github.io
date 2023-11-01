@@ -15,7 +15,7 @@ const Projects: React.FC<Props> = () => {
     const projects: ProjectInterface[] = Object.values(ProjectJSON)[0].map(
         (obj) => {
             switch (obj.title) {
-                case "Annotations for Supporting Developers' Sensemaking": {
+                case "Meta-Information for Supporting Developers' Sensemaking": {
                     return {
                         ...obj,
                         icon: ChatBubbleBottomCenterTextIcon,
