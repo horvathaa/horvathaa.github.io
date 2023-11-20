@@ -6,6 +6,12 @@
             "collaborators": "Brad A. Myers, Michael Xieyang Liu, Andrew Macvean, River Hendriksen, Connor Shannon, Emma Paterson, Imtiaz Rahman, Shannon Bonet, Matthew Shu, Lai Wei, Kazi Jawad",
             "publications": [
                 {
+                    "title": "Thesis Proposal",
+                    "authors": "Amber Horvath",
+                    "publicationVenue": "Carnegie Mellon University",
+                    "paperPath": "./resources/horvath_thesisproposal.pdf"
+                },
+                {
                     "title": "Support for Long-Form Documentation Authoring and Maintenance",
                     "authors": "Amber Horvath, Andrew Macvean, and Brad A. Myers",
                     "publicationVenue": "VL/HCC 2023",
