@@ -1,53 +1,53 @@
 @font-face {
-    font-family:  'Cereal Normal';
-    src: url('./fonts/AirbnbCerealBook.ttf') format("truetype"),
-        url('./fonts/AirbnbCerealBook.woff') format("woff");
+    font-family: 'Cereal Normal';
+    src: url('./fonts/AirbnbCerealBook.ttf') format('truetype'),
+        url('./fonts/AirbnbCerealBook.woff') format('woff');
 }
 
 @font-face {
-    font-family:  'Cereal Black';
-    src: url('./fonts/AirbnbCerealBlack.ttf') format("truetype"),
-        url('./fonts/AirbnbCerealBlack.woff') format("woff");
+    font-family: 'Cereal Black';
+    src: url('./fonts/AirbnbCerealBlack.ttf') format('truetype'),
+        url('./fonts/AirbnbCerealBlack.woff') format('woff');
 }
 
 @font-face {
-    font-family:  'Cereal Light';
-    src: url('./fonts/AirbnbCerealLight.ttf') format("truetype"),
-        url('./fonts/AirbnbCerealLight.woff') format("woff");
+    font-family: 'Cereal Light';
+    src: url('./fonts/AirbnbCerealLight.ttf') format('truetype'),
+        url('./fonts/AirbnbCerealLight.woff') format('woff');
 }
 
 @font-face {
-    font-family:  'Cereal Medium';
-    src: url('./fonts/AirbnbCerealMedium.ttf') format("truetype"),
-        url('./fonts/AirbnbCerealMedium.woff') format("woff");
+    font-family: 'Cereal Medium';
+    src: url('./fonts/AirbnbCerealMedium.ttf') format('truetype'),
+        url('./fonts/AirbnbCerealMedium.woff') format('woff');
 }
 
 @font-face {
-    font-family:  'Cereal Bold';
-    src: url('./fonts/AirbnbCerealBold.ttf') format("truetype"),
-    url('./fonts/AirbnbCerealBold.woff') format("woff");
-
+    font-family: 'Cereal Bold';
+    src: url('./fonts/AirbnbCerealBold.ttf') format('truetype'),
+        url('./fonts/AirbnbCerealBold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Cereal Bolder';
-    src: url('./fonts/AirbnbCerealExtraBold.ttf') format("truetype"),
-        url('./fonts/AirbnbCerealExtraBold.woff') format("woff"); 
+    src: url('./fonts/AirbnbCerealExtraBold.ttf') format('truetype'),
+        url('./fonts/AirbnbCerealExtraBold.woff') format('woff');
 }
 
-
 :root {
-    --brand-regular: #ADC79E;
-    --brand-dark: #103C21;
+    --brand-regular: #adc79e;
+    --brand-dark: #103c21;
 
-    --white: #FFFFFF;
-    --offwhite: #F9F9F9;
-    --gray: #EEEEEE;
+    --white: #ffffff;
+    --offwhite: #f9f9f9;
+    --gray: #eeeeee;
 
     --black: #000;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -59,7 +59,8 @@ html {
     /* font-family: Helvetica, sans-serif; */
     font-size: 62.5%;
     scroll-behavior: smooth;
-    font-family:  'Cereal Normal', -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
+    font-family: 'Cereal Normal', -apple-system, BlinkMacSystemFont, Roboto,
+        Helvetica Neue, sans-serif !important;
     font-size: 62.5%;
     scroll-behavior: smooth;
     /* min-height: fit-content; */
@@ -138,6 +139,6 @@ strong {
     text-decoration: none;
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover {
     color: #6b778ca1 !important;
 }

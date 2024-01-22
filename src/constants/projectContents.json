@@ -6,6 +6,12 @@
             "collaborators": "Brad A. Myers, Michael Xieyang Liu, Andrew Macvean, River Hendriksen, Connor Shannon, Emma Paterson, Imtiaz Rahman, Shannon Bonet, Matthew Shu, Lai Wei, Kazi Jawad",
             "publications": [
                 {
+                    "title": "Meta-Manager: A Tool for Collecting and Exploring Meta Information about Code",
+                    "authors": "Amber Horvath, Andrew Macvean, and Brad A. Myers",
+                    "publicationVenue": "CHI 2024",
+                    "paperPath": "./resources/horvath_chi2024-preprint.pdf"
+                },
+                {
                     "title": "Thesis Proposal",
                     "authors": "Amber Horvath",
                     "publicationVenue": "Carnegie Mellon University",

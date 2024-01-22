@@ -4,6 +4,7 @@
 import './App.css'
 import Projects from './components/projects'
 import AboutMe from './components/aboutMe'
+import News from './components/news'
 // import './styles/globals.css'
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
                         {/* <Header /> */}
                         <div className="App">
                             <AboutMe />
+                            <News />
                             <Projects />
                         </div>
                     </main>

@@ -10,25 +10,25 @@ const Publication: React.FC<Props> = ({ publication }) => {
         let el
         if (a.includes('and') && a.includes('Amber Horvath')) {
             el = (
-                <>
+                <React.Fragment key={publication.title + i + a}>
                     and{' '}
                     <b>
                         <i>Amber Horvath</i>
                     </b>
-                </>
+                </React.Fragment>
             )
         } else if (
             splitAuthors.length - 1 === i &&
             a.trim() === 'Amber Horvath'
         ) {
             el = (
-                <i>
+                <i key={publication.title + i + a}>
                     <b>{a}</b>
                 </i>
             )
         } else if (a.trim() === 'Amber Horvath') {
             el = (
-                <i>
+                <i key={publication.title + i + a}>
                     <b>{a}, </b>
                 </i>
             )
