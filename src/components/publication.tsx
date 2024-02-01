@@ -7,7 +7,7 @@ interface Props {
 const Publication: React.FC<Props> = ({ publication }) => {
     const splitAuthors = publication.authors.split(',')
     const formattedAuthors = splitAuthors.map((a, i) => {
-        let el
+        let el: React.ReactNode
         if (a.includes('and') && a.includes('Amber Horvath')) {
             el = (
                 <React.Fragment key={publication.title + i + a}>

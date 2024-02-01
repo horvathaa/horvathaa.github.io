@@ -15,8 +15,11 @@ const Project: React.FC<Props> = ({ project }) => {
         React.useState<boolean>(false)
 
     return (
-        <div key={project.title} className="relative flex-col flex ">
-            <div key={project.title} className="relative flex-col flex ">
+        <div key={`${project.title}-outer`} className="relative flex-col flex ">
+            <div
+                key={`${project.title}-inner`}
+                className="relative flex-col flex "
+            >
                 <div>
                     <dt>
                         <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-slate-500 text-white">
