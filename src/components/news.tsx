@@ -36,7 +36,7 @@ const news: INews[] = [
                     later developers make sense of implementation decisions.
                     Read our pre-print{' '}
                     <a
-                        href={'./resources/horvath_chi2024-preprint.pdf'}
+                        href={'./resources/horvath_chi2024.pdf'}
                         target="_blank"
                         rel="noreferrer"
                         style={{ fontWeight: 'bold' }}
