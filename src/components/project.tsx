@@ -5,6 +5,7 @@ import {
     Project as ProjectInterface,
     Publication as PublicationInterface,
 } from '../constants/constants'
+import { log } from 'mm-log'
 
 interface Props {
     project: ProjectInterface
@@ -14,6 +15,10 @@ const Project: React.FC<Props> = ({ project }) => {
     const [showingPublications, setShowingPublications] =
         React.useState<boolean>(false)
 
+
+
+    
+    log('HELLO FROM AMBERS WEBSITE')
     return (
         <div key={`${project.title}-outer`} className="relative flex-col flex ">
             <div
