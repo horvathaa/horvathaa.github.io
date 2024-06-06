@@ -5,9 +5,15 @@ import './App.css'
 import Projects from './components/projects'
 import AboutMe from './components/aboutMe'
 import News from './components/news'
+import { mmlog } from 'mm-log'
 // import './styles/globals.css'
 
 function App() {
+    mmlog('another!!!!!!')
+    mmlog('one more!!')
+    // console.log('adding some text')
+    mmlog(Math.random())
+    mmlog({ start: 'test', end: 'other test' }, 'other', 'args')
     const waveAnimation = (
         <div>
             <svg

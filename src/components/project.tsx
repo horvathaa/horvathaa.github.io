@@ -5,7 +5,8 @@ import {
     Project as ProjectInterface,
     Publication as PublicationInterface,
 } from '../constants/constants'
-import { log } from 'mm-log'
+import { mmlog } from 'mm-log'
+// import log from 'log-here-now'
 
 interface Props {
     project: ProjectInterface
@@ -14,15 +15,17 @@ interface Props {
 const Project: React.FC<Props> = ({ project }) => {
     const [showingPublications, setShowingPublications] =
         React.useState<boolean>(false)
-
-
-
-    
-    log('HELLO FROM AMBERS WEBSITE')
+    // mmlog('new mmlog', project, showingPublications)
+    // mmlog('HELLO FROM AMBERS WEBSITE', Math.random())
+    // mmlog('hi')
+    // console.log('hi mom')
+    // mmlog('heeeeeeeeeeeeeeee')
+    // mmlog('hellow')
+    // console.log(log('ANOTHER LOG FROM LOG_HERE_NOW'))
     return (
         <div key={`${project.title}-outer`} className="relative flex-col flex ">
             <div
-                key={`${project.title}-inner`}
+                key={`${project.title}-inner-div`}
                 className="relative flex-col flex "
             >
                 <div>
@@ -64,12 +67,16 @@ const Project: React.FC<Props> = ({ project }) => {
                 aria-expanded={!showingPublications}
             >
                 {project.publications.map(
-                    (publication: PublicationInterface) => (
-                        <Publication
-                            key={publication.title}
-                            publication={publication}
-                        />
-                    )
+                    (publication: PublicationInterface) => {
+                        // other junk
+                        // mmlog(`PUBLICATION: ${publication.title}`)
+                        return (
+                            <Publication
+                                key={publication.title}
+                                publication={publication}
+                            />
+                        )
+                    }
                 )}
             </div>
         </div>

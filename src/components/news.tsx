@@ -1,6 +1,6 @@
 import * as React from 'react'
 import '../App.css'
-import { log } from 'mm-log'
+import { mmlog } from 'mm-log'
 
 interface INews {
     date: Date
@@ -10,9 +10,11 @@ interface INews {
 }
 
 function formatMonthYear(date: Date): string {
-    const month = String(date.getMonth() + 1).padStart(2, '0')
+    const month = String(date.getMonth() + 1) // .padStart(2, '0')
     const year = String(date.getFullYear())
-    log(`month: ${month}, year: ${year}`)
+    mmlog(`month: ${month}, year: ${year}`)
+
+    // new version
     return `${month}/${year}`
 }
 
