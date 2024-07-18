@@ -9,11 +9,16 @@ import { mmlog } from 'mm-log'
 // import './styles/globals.css'
 
 function App() {
-    mmlog('another!!!!!!')
-    mmlog('one more!!')
-    // console.log('adding some text')
-    mmlog(Math.random())
-    mmlog({ start: 'test', end: 'other test' }, 'other', 'args')
+    // eslint-disable-next-line no-lone-blocks
+    {
+        console.log('adding some more content')
+        mmlog('another!!!')
+        mmlog('one more!!')
+        // console.log('adding some text')
+
+        mmlog(Math.random(), 'hi')
+    }
+    mmlog({ start: 'test', end: 'other test' }, 'other', 'args', 'new args')
     const waveAnimation = (
         <div>
             <svg
