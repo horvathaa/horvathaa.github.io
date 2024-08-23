@@ -1,6 +1,7 @@
 import * as React from 'react'
 import '../App.css'
 import { mmlog } from 'mm-log'
+import { CURR_CV_PATH } from '../constants/constants'
 
 interface INews {
     date: Date
@@ -132,7 +133,7 @@ const news: INews[] = [
                 <p className="mt-2 text-base leading-6 text-gray-500">
                     See my full CV{' '}
                     <a
-                        href={'./resources/horvath_CV-1-22-2024.pdf'}
+                        href={CURR_CV_PATH}
                         target="_blank"
                         rel="noreferrer"
                         style={{ fontWeight: 'bold' }}

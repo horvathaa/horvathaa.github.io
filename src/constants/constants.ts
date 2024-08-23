@@ -13,3 +13,5 @@ export interface Project {
     icon?: any
     learnMore?: JSX.Element
 }
+
+export const CURR_CV_PATH = './resources/horvath_CV-8-23-2024.pdf'

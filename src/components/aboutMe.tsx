@@ -5,6 +5,7 @@ import {
     InboxIcon,
     DocumentTextIcon,
 } from '@heroicons/react/24/outline'
+import { CURR_CV_PATH } from '../constants/constants'
 interface About {
     shortDescription: string | JSX.Element
     longDescription: JSX.Element
@@ -125,9 +126,7 @@ const AboutMe: React.FC = () => {
                 />
                 <DocumentTextIcon
                     className="mr-4 h-6 w-6 cursor-pointer"
-                    onClick={() =>
-                        window.open('./resources/horvath_CV-8-23-2024.pdf')
-                    }
+                    onClick={() => window.open(CURR_CV_PATH)}
                     target={'_blank'}
                 />
             </div>
