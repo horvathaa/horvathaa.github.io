@@ -119,14 +119,14 @@ const AboutMe: React.FC = () => {
                 <InboxIcon
                     className="mr-4 h-6 w-6 cursor-pointer"
                     onClick={() =>
-                        window.open('mailto:ahorvath@andrew.cmu.edu')
+                        window.open('mailto:amberhorvath9@gmail.com')
                     }
                     target={'_blank'}
                 />
                 <DocumentTextIcon
                     className="mr-4 h-6 w-6 cursor-pointer"
                     onClick={() =>
-                        window.open('./resources/horvath_CV-1-22-2024.pdf')
+                        window.open('./resources/horvath_CV-8-23-2024.pdf')
                     }
                     target={'_blank'}
                 />

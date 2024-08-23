@@ -10,24 +10,78 @@ interface INews {
 }
 
 function formatMonthYear(date: Date): string {
-    const month = String(date.getMonth() + 1) // .padStart(2, '0')
+    const month = String(date.getMonth() + 1).padStart(2, '0')
     const year = String(date.getFullYear())
 
-    mmlog(`month: ${month}, year: ${year}`, date)
-
-    // new version
     return `${month}/${year}`
 }
 
+const DEFAULT_P_STYLE = 'mt-2 text-base leading-6 text-gray-500'
 
+const formatLink = (link: string, text: string) => (
+    <a
+        href={link}
+        target="_blank"
+        rel="noreferrer"
+        style={{ fontWeight: 'bold' }}
+    >
+        {text}
+    </a>
+)
 
-
-
-
-
-
+const formatIframe = (link: string) => <iframe src={link}></iframe>
 
 const news: INews[] = [
+    {
+        date: new Date('2024-08-23'),
+        shortDescription: (
+            <>
+                <span className="font-bold">
+                    I am officially <span className="text-gray-500">done</span>!
+                    I successfully defended my PhD and will be joining MIT CSAIL
+                    as a post-doc in the fall.
+                </span>
+            </>
+        ),
+        emoji: '🍾',
+        longDescription: (
+            <>
+                <p className={DEFAULT_P_STYLE}>
+                    Thank you to my amazing advisor,{' '}
+                    {formatLink('https://www.cs.cmu.edu/~bam/', 'Brad Myers')},
+                    and committee members{' '}
+                    {formatLink(
+                        'https://www.lauradabbish.com/',
+                        'Laura Dabbish'
+                    )}
+                    , {formatLink('https://kittur.org/', 'Niki Kittur')},{' '}
+                    {formatLink(
+                        'https://glassmanlab.seas.harvard.edu/glassman.html',
+                        'Elena Glassman'
+                    )}
+                    , and Andrew Macvean. At MIT, I will be working with{' '}
+                    {formatLink(
+                        'https://people.csail.mit.edu/karger/',
+                        'David Karger'
+                    )}{' '}
+                    and{' '}
+                    {formatLink(
+                        'https://arvindsatya.com/',
+                        'Arvind Satyanarayan'
+                    )}{' '}
+                    on developer sensemaking and information management with AI.
+                </p>
+                <p className={DEFAULT_P_STYLE}>
+                    You can read the full version of{' '}
+                    {formatLink(
+                        './resources/horvath_phd_dissertation_hcii_2024.pdf',
+                        'my dissertation here'
+                    )}
+                    .
+                </p>
+            </>
+        ),
+    },
     {
         date: new Date('2024-01-19'),
         shortDescription: (
