@@ -1,6 +1,5 @@
 import * as React from 'react'
 import '../App.css'
-import { mmlog } from 'mm-log'
 import { CURR_CV_PATH } from '../constants/constants'
 
 interface INews {
@@ -30,7 +29,7 @@ const formatLink = (link: string, text: string) => (
     </a>
 )
 
-const formatIframe = (link: string) => <iframe src={link}></iframe>
+// const formatIframe = (link: string) => <iframe src={link}></iframe>
 
 const news: INews[] = [
     {

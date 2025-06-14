@@ -17,10 +17,10 @@ interface About {
 const about: About = {
     shortDescription: (
         <>
-            6th year Ph.D student in the Human-Computer Interaction Institute at
-            Carnegie Mellon University, researching ways to make developer
-            information tracking, capturing, and sharing more seamless, advised
-            by{' '}
+            Postdoctoral associate at MIT CSAIL researching ways to make
+            developer information tracking, capturing, and sharing more
+            seamless. Previously, I received my Ph.D. in human-computer
+            interaction from Carnegie Mellon University, where I was advised by{' '}
             <a
                 href={'https://cs.cmu.edu/~bam'}
                 target="_blank"
