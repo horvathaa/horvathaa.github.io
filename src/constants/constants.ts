@@ -14,4 +14,4 @@ export interface Project {
     learnMore?: JSX.Element
 }
 
-export const CURR_CV_PATH = './resources/horvath_CV-8-23-2024.pdf'
+export const CURR_CV_PATH = './resources/amber-horvath-cv.pdf'

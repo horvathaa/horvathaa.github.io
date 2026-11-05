@@ -1,6 +1,7 @@
 // import React from 'react'
 // import amber from './resources/amber.jpeg'
 // import styles from './styles/App.module.css'
+import { useEffect, useRef } from 'react'
 import './App.css'
 import Projects from './components/projects'
 import AboutMe from './components/aboutMe'
@@ -9,6 +10,21 @@ import News from './components/news'
 // import './styles/globals.css'
 
 function App() {
+    const homepage = useRef<HTMLDivElement>(null)
+    useEffect(() => {
+        if (!homepage.current || !('IntersectionObserver' in window)) return
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(({ target, isIntersecting }) => {
+                if (isIntersecting) {
+                    target.classList.add('section-arrived')
+                    observer.unobserve(target)
+                }
+            })
+        })
+        homepage.current.querySelectorAll('.homepage-section').forEach(section => observer.observe(section))
+        return () => observer.disconnect()
+    }, [])
+
     const waveAnimation = (
         <div>
             <svg
@@ -53,19 +69,73 @@ function App() {
         </div>
     )
     return (
-        <div className="relative bg-slate-100">
-            <div className="mx-auto max-w-7xl">
-                <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:pb-28 xl:pb-32">
-                    <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+        <div className="site-canvas relative" ref={homepage}>
+            <a className="skip-link" href="#main-content">Skip to content</a>
+            <header className="site-header">
+                <a href="#intro-title" className="site-wordmark" aria-label="Amber Horvath home">ah<span aria-hidden="true">🦉</span></a>
+                <nav aria-label="Main navigation">
+                    <a href="#current-projects">Projects</a>
+                    <a href="#news">News</a>
+                    <a href="#research-interests">Research</a>
+                    <a href="/students/">Students ↗</a>
+                </nav>
+            </header>
+            <div className="site-body">
+                <div className="relative z-10">
+                    <main id="main-content">
                         {/* <Header /> */}
                         <div className="App">
-                            <AboutMe />
-                            <News />
-                            <Projects />
+                            <div className="intro-and-projects">
+                                <AboutMe />
+                                <section aria-labelledby="current-projects" className="homepage-section project-feature px-5 sm:px-8 py-8">
+                                    <p className="eyebrow">01 / In the works</p>
+                                    <h2 id="current-projects" className="text-2xl font-semibold text-gray-900">
+                                        Current research projects
+                                    </h2>
+                                    <article className="mt-5 text-gray-700 leading-relaxed">
+                                        <h3 id="clai" className="text-xl font-semibold text-gray-900">
+                                            CLAI · Understanding software built with AI
+                                        </h3>
+                                        <p className="mt-2 max-w-3xl">
+                                            An AI agent can make a change that passes every test.
+                                            What does a developer still need to understand before building on it?
+                                            CLAI lets us write scripts that specify which parts of that work a
+                                            developer takes on, what evidence an agent prepares, and when the
+                                            developer sees it.
+                                        </p>
+                                        <p className="mt-3 max-w-3xl">
+                                            We built two prototypes with CLAI. One traces a change from the
+                                            developer’s request through the agent’s work to the resulting code.
+                                            The other helps a developer map an unfamiliar codebase as they explore
+                                            it, then asks a model to check that map against the code. In design
+                                            critiques with ten experts, participants welcomed help gathering
+                                            evidence but wanted to inspect it themselves before making decisions
+                                            they’d have to stand behind.
+                                        </p>
+                                        <figure className="execution-figure">
+                                            <a href="/resources/clai/execution-story.png" aria-label="Open the full-size CLAI execution story image">
+                                                <img src="/resources/clai/execution-story.png" width="2137" height="1453" loading="lazy"
+                                                    alt="On the left, a CLAI script watches edits and console logs. On the right, VS Code shows two successive runs with their code, values, and explanations." />
+                                            </a>
+                                            <figcaption><strong>An execution story.</strong> The console output changed from “hello world” to “CHI 2027.” The script keeps both runs and asks a model to explain the difference using the edit and the observed values. <a href="/resources/clai/execution-story.png">View full-size image</a></figcaption>
+                                        </figure>
+                                        <details className="clai-demo">
+                                            <summary>Watch the CLAI walkthrough <span>4 min 53 sec</span></summary>
+                                            <video controls playsInline preload="none" aria-label="CLAI research walkthrough">
+                                                <source src="/resources/clai/walkthrough.mp4" type="video/mp4" />
+                                                <track kind="captions" src="/resources/clai/walkthrough.vtt" srcLang="en" label="English" default />
+                                            </video>
+                                        </details>
+                                    </article>
+                                </section>
+                            </div>
+                            <div className="homepage-section"><News /></div>
+                            <div className="homepage-section"><Projects /></div>
                         </div>
                     </main>
                 </div>
             </div>
+            <footer className="site-footer"><span>Amber Horvath · University of Victoria</span><a href="#intro-title">Back to top ↑</a></footer>
             {waveAnimation}
         </div>
     )

@@ -33,6 +33,22 @@ const formatLink = (link: string, text: string) => (
 
 const news: INews[] = [
     {
+        date: new Date(2026, 6, 1),
+        emoji: '🌲',
+        shortDescription: <span className="font-bold">I’m now at the University of Victoria!</span>,
+        longDescription: (
+            <p className={DEFAULT_P_STYLE}>
+                I’m an assistant professor of Software Engineering in the{' '}
+                {formatLink('https://www.uvic.ca/ecs/computerscience/faculty-staff/faculty/horvath-amber.php', 'Department of Computer Science')}{' '}
+                and a co-PI of the{' '}
+                {formatLink('https://thechiselgroup.org/team/', 'CHISEL Lab')}.
+                I’m studying how developers find and use the information they need
+                to guide software development with AI.{' '}
+                {formatLink('/students/', 'Interested in working with me?')}
+            </p>
+        ),
+    },
+    {
         date: new Date('2024-08-23'),
         shortDescription: (
             <>
@@ -148,10 +164,11 @@ const news: INews[] = [
 
 const News: React.FC = () => {
     return (
-        <div className="bg-white py-12 rounded my-14 mx-20">
+        <div className="news-section">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <div className="lg:text-center">
-                    <h2 className="text-lg font-semibold text-slate-600">
+                <div className="section-heading">
+                    <p className="eyebrow">02 / Activity</p>
+                    <h2 id="news" className="text-lg font-semibold text-slate-600">
                         News
                     </h2>
                 </div>

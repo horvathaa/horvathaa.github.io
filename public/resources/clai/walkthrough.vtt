@@ -1,0 +1,398 @@
+WEBVTT
+
+1
+00:00:00.160 --> 00:00:04.880
+I'm presenting CLAI, a runtime for
+
+2
+00:00:02.879 --> 00:00:07.359
+specifying programmable code
+
+3
+00:00:04.880 --> 00:00:10.000
+comprehension interventions over
+
+4
+00:00:07.359 --> 00:00:12.240
+developer and agent activity. I'll
+
+5
+00:00:10.000 --> 00:00:16.160
+demonstrate the same two scenarios used
+
+6
+00:00:12.240 --> 00:00:19.119
+in our expert design critiques. The LLM
+
+7
+00:00:16.160 --> 00:00:21.920
+provenence probe helps Patra reconnect
+
+8
+00:00:19.119 --> 00:00:25.199
+prior design intent to generated code,
+
+9
+00:00:21.920 --> 00:00:28.080
+while the onboarding canvas probe helps
+
+10
+00:00:25.199 --> 00:00:31.439
+Maya turn source exploration into a
+
+11
+00:00:28.080 --> 00:00:33.920
+working model that an LLM can audit.
+
+12
+00:00:31.439 --> 00:00:38.320
+Hatra has built tempo tiles through
+
+13
+00:00:33.920 --> 00:00:41.120
+rapid play test and codeex loops.
+
+14
+00:00:38.320 --> 00:00:43.280
+Players score by selecting adjacent same
+
+15
+00:00:41.120 --> 00:00:47.360
+color tiles
+
+16
+00:00:43.280 --> 00:00:49.680
+and fast selections can form combos.
+
+17
+00:00:47.360 --> 00:00:52.640
+This group is legal when clicked in one
+
+18
+00:00:49.680 --> 00:00:55.840
+order. Clicking the same tiles in
+
+19
+00:00:52.640 --> 00:00:58.079
+another order rejects the move. Patron
+
+20
+00:00:55.840 --> 00:01:00.079
+knows the intended game behavior, but
+
+21
+00:00:58.079 --> 00:01:03.079
+not why click order now affects
+
+22
+00:01:00.079 --> 00:01:03.079
+legality.
+
+23
+00:01:03.199 --> 00:01:08.320
+Instead of reconstructing every
+
+24
+00:01:05.199 --> 00:01:10.960
+conversation, Petra opens Clay's
+
+25
+00:01:08.320 --> 00:01:13.760
+reorient view.
+
+26
+00:01:10.960 --> 00:01:16.320
+Each card preserves a prompt, a summary
+
+27
+00:01:13.760 --> 00:01:19.040
+of the agent's response, and links to
+
+28
+00:01:16.320 --> 00:01:22.080
+the affected source.
+
+29
+00:01:19.040 --> 00:01:24.720
+The path rhythm combo turn reminds her
+
+30
+00:01:22.080 --> 00:01:27.360
+that combo scoring change from completed
+
+31
+00:01:24.720 --> 00:01:30.360
+moves to the timing of individual tile
+
+32
+00:01:27.360 --> 00:01:30.360
+selections.
+
+33
+00:01:33.600 --> 00:01:38.159
+Following its apply move link moves from
+
+34
+00:01:36.159 --> 00:01:39.680
+the turnle account to the current
+
+35
+00:01:38.159 --> 00:01:42.079
+source.
+
+36
+00:01:39.680 --> 00:01:44.960
+The inline annotation places that
+
+37
+00:01:42.079 --> 00:01:48.720
+functions implementation history beside
+
+38
+00:01:44.960 --> 00:01:51.360
+the code. Here one selected path is
+
+39
+00:01:48.720 --> 00:01:54.399
+passed to clear move for move validation
+
+40
+00:01:51.360 --> 00:01:56.880
+and score move for timing.
+
+41
+00:01:54.399 --> 00:02:00.280
+Patre can now see that order may carry
+
+42
+00:01:56.880 --> 00:02:00.280
+two responsibilities.
+
+43
+00:02:02.079 --> 00:02:08.239
+Patra opens path order semantics.
+
+44
+00:02:05.920 --> 00:02:10.879
+Clay organizes relevant memories and
+
+45
+00:02:08.239 --> 00:02:13.680
+grounds its account in source connecting
+
+46
+00:02:10.879 --> 00:02:17.440
+apply move to normalize path which
+
+47
+00:02:13.680 --> 00:02:19.680
+checks adjacency in click order.
+
+48
+00:02:17.440 --> 00:02:23.280
+What Patra understood as a group of
+
+49
+00:02:19.680 --> 00:02:25.680
+tiles has become both a spatial group
+
+50
+00:02:23.280 --> 00:02:29.040
+and an ordered traversal carrying
+
+51
+00:02:25.680 --> 00:02:31.280
+timing. Clay has not fixed the bug.
+
+52
+00:02:29.040 --> 00:02:33.599
+Petra decides whether to separate these
+
+53
+00:02:31.280 --> 00:02:35.280
+responsibilities and how to direct her
+
+54
+00:02:33.599 --> 00:02:37.680
+repair.
+
+55
+00:02:35.280 --> 00:02:41.280
+Maya meanwhile wants to make a first
+
+56
+00:02:37.680 --> 00:02:43.920
+contribution to Vegaite. Her issue asks
+
+57
+00:02:41.280 --> 00:02:47.120
+developers to remove unnecessary calls
+
+58
+00:02:43.920 --> 00:02:50.160
+to normalize time unit. Normalization
+
+59
+00:02:47.120 --> 00:02:52.560
+should occur during parsing, not later
+
+60
+00:02:50.160 --> 00:02:55.440
+compilation stages.
+
+61
+00:02:52.560 --> 00:02:57.920
+In notion, she records the issue and a
+
+62
+00:02:55.440 --> 00:03:03.319
+plan to compare the functions callers
+
+63
+00:02:57.920 --> 00:03:03.319
+with Vegaite's top level compile flow.
+
+64
+00:03:04.560 --> 00:03:10.159
+Opening normalized time unit gives Maya
+
+65
+00:03:07.280 --> 00:03:12.400
+a local anchor but not its place in the
+
+66
+00:03:10.159 --> 00:03:15.599
+life cycle.
+
+67
+00:03:12.400 --> 00:03:18.800
+She follows four plausible references.
+
+68
+00:03:15.599 --> 00:03:22.640
+As she visits each symbol, Clay adds a
+
+69
+00:03:18.800 --> 00:03:25.440
+source linked canvas node.
+
+70
+00:03:22.640 --> 00:03:29.120
+The collars remain hard to place. So she
+
+71
+00:03:25.440 --> 00:03:32.400
+changes strategy. She opens compile and
+
+72
+00:03:29.120 --> 00:03:37.480
+retains model.parse and assemble tople
+
+73
+00:03:32.400 --> 00:03:37.480
+model as parsing and assembly anchors.
+
+74
+00:03:38.000 --> 00:03:43.200
+Before invoking an LLM, Maya structures
+
+75
+00:03:41.040 --> 00:03:45.360
+her own uncertainty.
+
+76
+00:03:43.200 --> 00:03:48.720
+She groups the four references as
+
+77
+00:03:45.360 --> 00:03:52.000
+unplaced callers, groups the two methods
+
+78
+00:03:48.720 --> 00:03:54.959
+as life cycle anchors and draws a
+
+79
+00:03:52.000 --> 00:03:58.080
+question edge not a direct call claim
+
+80
+00:03:54.959 --> 00:04:00.720
+from compile to normalized time unit
+
+81
+00:03:58.080 --> 00:04:05.560
+asking how do I get from the colleies of
+
+82
+00:04:00.720 --> 00:04:05.560
+compile to normalized time unit.
+
+83
+00:04:08.080 --> 00:04:12.480
+Pressing audit map supplies the
+
+84
+00:04:10.080 --> 00:04:15.680
+structured artifact and her planning
+
+85
+00:04:12.480 --> 00:04:18.799
+note to the LLM without requiring Maya
+
+86
+00:04:15.680 --> 00:04:21.040
+to restate them in a prompt. Clay
+
+87
+00:04:18.799 --> 00:04:24.320
+returns a new version that preserves her
+
+88
+00:04:21.040 --> 00:04:26.800
+work, leaves tangential colors visible,
+
+89
+00:04:24.320 --> 00:04:29.600
+and proposes two source linked lanes
+
+90
+00:04:26.800 --> 00:04:33.040
+through the compiler, one for parsing
+
+91
+00:04:29.600 --> 00:04:35.280
+and one for assembly.
+
+92
+00:04:33.040 --> 00:04:38.400
+In the assembly lane, Maya can trace
+
+93
+00:04:35.280 --> 00:04:39.919
+assemble top level model through various
+
+94
+00:04:38.400 --> 00:04:41.840
+functions.
+
+95
+00:04:39.919 --> 00:04:44.560
+She follows a source link to check the
+
+96
+00:04:41.840 --> 00:04:46.960
+late call. The map gives her a stronger
+
+97
+00:04:44.560 --> 00:04:49.120
+candidate for the change. She still
+
+98
+00:04:46.960 --> 00:04:52.680
+decides whether the path is accurate and
+
+99
+00:04:49.120 --> 00:04:52.680
+what to do next.
+

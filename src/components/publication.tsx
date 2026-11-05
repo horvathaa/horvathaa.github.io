@@ -41,18 +41,18 @@ const Publication: React.FC<Props> = ({ publication }) => {
     })
 
     return (
-        <dd className="mt-2 ml-16 text-base text-gray-400 flex">
+        <div className="publication-entry">
             <div className="flex-col">
                 <div className="text-gray-900 font-medium">
                     {publication.title}.
                 </div>
                 <div className="text-gray-700">{formattedAuthors}.</div>
-                <div className="flex">
+                <div className="publication-venue">
                     <div>Appeared in {publication.publicationVenue}. </div>
                     &nbsp; <a href={publication.paperPath}>Read here.</a>
                 </div>
             </div>
-        </dd>
+        </div>
     )
 }
 
